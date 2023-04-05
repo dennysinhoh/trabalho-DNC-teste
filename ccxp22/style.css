@@ -1,0 +1,148 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    background-color: #FFFFFF; 
+      
+}
+
+header{ 
+    background-color: #FFD900;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 58px;
+     
+}
+
+section{    
+    display:  flex;   
+       
+ }
+
+.container{ 
+    background-color: #514988;
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 29px;
+     
+}
+
+#texto{  
+    padding-left: 40px;
+}
+
+.container2{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #E33881;
+    padding-left: 15px;
+   
+}
+
+
+
+#arlequina{ 
+    width: 830px;
+ 
+}
+
+.container h1{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: #FFD900;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+footer{ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#titleCard{    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #F3C61F;
+  font-size: 25px;
+  margin-left: 50px;
+  padding: 20px;
+
+}
+
+.container3{  
+    display: flex;
+    margin-left: 60px;
+   padding-bottom: 15px;
+
+}
+
+#container4 button{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: #514988;
+    color: #FFFFFF;
+    font-size: 42px;
+    transition: all ease 0.3s;
+ 
+}
+
+#container4{ 
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 50px;
+}
+
+.time{  
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    color: #514988;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+#botao:hover{    
+    background:yellow;
+    color: rgba(51, 51, 48, 0.886);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    box-sizing: 10px;
+    Font-size: 42px;
+    Line-height: 100%
+          
+}
+
+@media screen and (max-width:1280px) {
+    header{ 
+        width: 100%;
+        
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 58px;
+         
+    }  
+    
+    .container{ 
+       
+        
+       
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        width: 400px
+        height:400px ;
+         
+    }
+    
+   
+    
+}
